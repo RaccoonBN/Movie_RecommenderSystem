@@ -17,6 +17,7 @@ if __name__ == "__main__":
     # Khởi tạo mô hình gợi ý
     recommender = MovieRecommender(ratings, movies)
 
+
     # Khởi tạo GUI
     root = tk.Tk()
     movie_gui = MovieGUI(root, recommender)
